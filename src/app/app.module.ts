@@ -6,6 +6,7 @@ import { HelloComponent } from './hello/hello.component';
 import { ButtonComponent } from './button/button.component';
 import { ImageComponent } from './ligths/image.component';
 import { InputComponent } from './input/input.component';
+import {FormsModule} from "@angular/forms";
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { InputComponent } from './input/input.component';
 
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

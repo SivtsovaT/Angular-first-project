@@ -9,7 +9,7 @@ import {Component, Input, OnInit} from '@angular/core';
 export class HelloComponent implements OnInit {
 
   @Input() name: string = 'world';
-  @Input() surname: string = 'uncnown';
+  @Input() surname: string = 'unknown';
 
   constructor() {
 
